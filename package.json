@@ -1,0 +1,16 @@
+{
+  "name": "mithril-di",
+  "version": "0.1.0",
+  "main": "mithril-di.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilsenem/mithril-di"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-load-plugins": "^0.5.3",
+    "gulp-rename": "^1.2.0",
+    "gulp-sourcemaps": "^1.1.0",
+    "gulp-uglify": "^0.3.1"
+  }
+}
