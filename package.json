@@ -1,7 +1,10 @@
 {
   "name": "mithril-di",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "mithril-di.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ilsenem/mithril-di"
@@ -11,6 +14,7 @@
     "gulp-load-plugins": "^0.5.3",
     "gulp-rename": "^1.2.0",
     "gulp-sourcemaps": "^1.1.0",
-    "gulp-uglify": "^0.3.1"
+    "gulp-uglify": "^0.3.1",
+    "should": "^4.0.4"
   }
 }

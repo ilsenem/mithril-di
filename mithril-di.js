@@ -2,9 +2,11 @@
   var repository = {};
 
   m.factory = function (name, dependencies) {
-    if (typeof repository[name] !== "undefined") {
+    if (typeof name === "undefined" || (typeof name !== "string" || name.length === 0)) {
+      throw new Error("Dependency name undefined");
+    } else if (typeof repository[name] !== "undefined") {
       throw new Error("Duplicate dependency entry");
-    } else if (typeof dependencies === "undefined") {
+    } else if (typeof dependencies !== "function" && (!Array.isArray(dependencies) || dependencies.length === 0)) {
       throw new Error("Empty dependency list");
     }
 
@@ -15,8 +17,12 @@
     };
 
     if (repository[name].fn === null) {
+      delete(repository[name]);
+
       throw new Error("Empty repository entry");
     } else if (typeof repository[name].fn !== "function") {
+      delete(repository[name]);
+
       throw new Error("Dependency not a function");
     }
   };
