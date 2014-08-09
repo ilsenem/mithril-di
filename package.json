@@ -1,6 +1,12 @@
 {
   "name": "mithril-di",
   "version": "0.1.2",
+  "description": "Small dependency injection tool for Mithril",
+  "keywords": [
+    "dependency",
+    "injection",
+    "mithril"
+  ],
   "main": "mithril-di.js",
   "files": [
     "mithril-di.js",
@@ -8,7 +14,7 @@
     "README.md"
   ],
   "scripts": {
-    "test": "mocha"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
