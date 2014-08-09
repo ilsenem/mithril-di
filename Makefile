@@ -1,7 +1,17 @@
-build:
+mithril-di.js:
 	@gulp
 
-test:
+.mithril-di.min.js: mithril-di.js
+	@gulp minify
+
+clean:
+	@gulp clean
+
+minify: .mithril-di.min.js
+
+test: mithril-di.js
 	@npm test
 
-.PHONY: test build
+build: test minify
+
+.PHONY: clean minify test build

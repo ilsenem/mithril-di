@@ -1,7 +1,12 @@
 {
   "name": "mithril-di",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "mithril-di.js",
+  "files": [
+    "mithril-di.js",
+    "mithril-di.min.js",
+    "README.md"
+  ],
   "scripts": {
     "test": "mocha"
   },
@@ -9,11 +14,15 @@
     "type": "git",
     "url": "https://github.com/ilsenem/mithril-di"
   },
+  "dependencies": {
+    "mithril": "0.1.*"
+  },
   "devDependencies": {
     "gulp": "^3.8.7",
+    "gulp-coffee": "^2.1.1",
     "gulp-load-plugins": "^0.5.3",
     "gulp-rename": "^1.2.0",
-    "gulp-sourcemaps": "^1.1.0",
+    "gulp-rimraf": "^0.1.0",
     "gulp-uglify": "^0.3.1",
     "should": "^4.0.4"
   }
