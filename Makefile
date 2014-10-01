@@ -10,7 +10,7 @@ clean:
 minify: .mithril-di.min.js
 
 test: mithril-di.js
-	@npm test
+	@mocha
 
 build: test minify
 

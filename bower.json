@@ -1,0 +1,29 @@
+{
+  "name": "mithril-di",
+  "main": "mithril-di.min.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ilsenem/mithril-di",
+  "authors": [
+    "ilsenem <ilya.nemytchenko@gmail.com>"
+  ],
+  "description": "Dependency injection library for Mithril framework",
+  "keywords": [
+    "mithril",
+    "dependency",
+    "injection"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "mithril": "v0.1.*"
+  },
+  "ignore": [
+    ".*",
+    "bower_components",
+    "node_modules",
+    "src",
+    "test",
+    "gulpfile.js",
+    "Makefile",
+    "package.json"
+  ]
+}
