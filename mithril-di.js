@@ -1,4 +1,4 @@
-(function() {
+(function(Mithril) {
   var repository;
   repository = [];
   Mithril.factory = function(name, dependencies) {
@@ -40,4 +40,4 @@
     return repository[name].instance;
   };
   return Mithril;
-})();
+})(m);
