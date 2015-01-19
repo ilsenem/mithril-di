@@ -1,7 +1,7 @@
 {
   "name": "mithril-di",
   "main": "mithril-di.min.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/ilsenem/mithril-di",
   "authors": [
     "ilsenem <ilya.nemytchenko@gmail.com>"
