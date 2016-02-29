@@ -1,3 +1,5 @@
+# This project is ABANDONED
+
 # Mithril — Dependency injection
 
 Small dependency injection tool for [Mithril](http://lhorie.github.io/mithril/) framework.
